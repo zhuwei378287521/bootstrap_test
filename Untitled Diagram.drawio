@@ -1,1 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T02:16:49.025Z" agent="5.0 (Windows)" version="14.6.5" etag="jeuH2y3B8pTtoC8eRZ6h" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-10T03:03:31.892Z" agent="5.0 (Windows)" etag="8ynrDXzL-wqHdRSLDBu5" version="14.6.5" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1185" dy="2965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="IO中断" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="235" y="-2240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="NO" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="DALI状态--空闲" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="245" y="-2150" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="&lt;div&gt;1.关闭IO中断&lt;/div&gt;&lt;div&gt;2.启动systick。时间为STOP_TIME。bit的最大接收时间&lt;/div&gt;&lt;div&gt;3.开启TIMER0的输入捕获功能&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="395" y="-2135" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
+          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="DALI状态--发送" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="245" y="-2030" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="&lt;div&gt;清除IO中断&lt;/div&gt;&lt;div&gt;清除DALI总线故障标记。&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="200" y="-1890" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="&lt;div&gt;1.检测总线发送过程中冲突&lt;/div&gt;&lt;div&gt;2.总线显性。但是不是自己发送的显性。则认为有冲突&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="395" y="-2010" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAA1EAAAFNCAYAAADhDuVjAAAbfUlEQVR4nO3de4ye1X3g8VcOYbEj0i5BTakBGzDmYkw8M2Y8xte52B5fwICxzT0hBtsYAzHXxLhYRUrFJlEr9bZq1e22u5UqaFat0qiXJG2oIlWqxP4RKat2Vy1V1apLtEoTRVt1RVWd/YtqPHPOO/M87/FzfMafgz6Kj/Ezv3d8xhHfvCdDb2h0UwAAAGBheqVfwMXkwAMPh/sPPxIOPPBw8dcCAAC0I6IAAAAaEFEAAAANiKgOuc4HAAD1E1EAAAANiCgAAIAGRFSHXOcDAID6iSgAAIAGRBQAAEADIqpDrvMBAED9RBQAAEADIgoAAKABEdUh1/kAAKB+IgoAAKABEQUAANCAiOqQ63wAAFA/EQUAANCAiAIAAGhARHXIdT4AAKifiAIAAGhARAEAADQgojrkOh8AANRPRAEAADQgogAAABoQUR1ynQ8AAOonogAAABoQUYVsGR4FAAAqJKI6NPM6X+mDBwAA2hFRhZQ+eAAAoB0RJaIAAIAGRFSHXOcDAID6iahCSh88AADQjogSUQBVueVXbw69t3tJmx/bEH1u6+RY3+eu/u3l0efueH2473Prf2oo+Vov/8PLk89d9o3Lks9teHV935lDb3wi+tx1v7Wy73Nb9iV+bw5u7Pvcqt+4Iflab/wvq5LPjZ26I/nckm8uST53xVevSD43/B/W9X2to6dHos/9+O9+vP/vzVh83qZjG/o+t+YXb02+1qu/fHX/mRNj2b5OtwyPhtt+aU3fZ+98KvHnamP6c7z0jy9t/Wd11W/ekPy4G08mnls/2vdzuPL3rkzOG/pi/6+NDS+tjz73Y1/5sf7ntD4+786T/V/r2p9fk3yty//b8v4zt0W+Nvb0/9q45q1rkvPW/PKtfZ/ddCRxHtvSM5d9fVnrr43FQER1yHU+gME99eSx8KmHHw3TWyfOcdfUrvD8Z06FfZM7o89NbtwSzrz66pznprdNhIfuOxieO/lM9LlHDj0QThw7Pue5fZM7w/EjT4YHDxxMvtbTnzsd9u/cM+fZe6f3hjOvvpp87sH77g/PnHh6znN7J3aGJz/16fDIoQejzz138pnw8P2H5jy3f2o6fPaVV8KOzduiz+0Z3xFeeenlOc/t2T4VHj38YHjqyaPJ13ry+Inw2OGHzj2LyV3h6eNPhQP77k4+d/bs2bB72+ScmYfuvje89OKLyec++dAj4fgTT849/8ld4cTRY+HQ/vuiz730wovh4F33zHnu7h27w2uvvRa2rZ/7D61bhkfDvbv3hec/c2ru7834VHj84UfDkcc+lXytz3/mVDh874HIzOnw6unTYWJsc7av0y3Do+Ho40fCkcc+GZ333Mlnwj3Te6PPbbtjY3jttdfmPHfPrr3hJ8+caf1n9ZkTT4dHDz0455yeOfF0uHf3vugzW0c2hLNnz879/LdOhEP77wsvPv9Cct6nHn40HD8S/9p4+vhT4f679kefe/nFl8L9+/ZHf9/Onj0bto7E/8eHA/v2h1PPPjf3z+n4jvDpRx4Ln370seRrfeHU8+HwPfGvjTOvngnjG+b+D+47N28Ppz93es4zu7dPhofuOxieffpkct6xI0+ETz/6WPTr/9Szz4W7d0xHn5sY2xx+8syZc+dtmwz3Tu8Lr54+3fprYzEQUYWUPniAWokoESWi4vNElIhKzRNR+YkoEQVQFRElokRUfJ6IElGpeSIqPxHVIdf5AAYnokSUiIrPE1EiKjVPROUnogopffAAtRJRIkpExeeJKBGVmiei8hNRIgqgKiJKRImo+DwRJaJS80RUfiKqQ67zAQxORIkoERWfJ6JEVGqeiMpPRBVS+uABaiWiRJSIis8TUSIqNU9E5SeiRBRAVUSUiBJR8XkiSkSl5omo/ERUh1znAxiciBJRIio+T0SJqNQ8EZWfiCqk9MED1EpEiSgRFZ8nokRUap6Iyk9EiSiAqogoESWi4vNElIhKzRNR+YmoDrnOBzA4ESWiRFR8nogSUal5Iio/EVVI6YMHqJWIElEiKj5PRImo1DwRlZ+IElEAVRFRIkpExeeJKBGVmiei8hNRHXKdD2BwIkpEiaj4PBElolLzRFR+IqqQ0gcPUCsRJaJEVHyeiBJRqXkiKj8RJaIAqiKiRJSIis8TUSIqNU9E5SeiOuQ6H8DgRJSIElHxeSJKRKXmiaj8RFQhpQ8eoFYiSkSJqPg8ESWiUvNEVH4iSkQBVEVEiSgRFZ8nokRUap6Iyk9Edch1PoDBiSgRJaLi80SUiErNE1H5iahCSh88QK1ElIgSUfF5IkpEpeaJqPxElIgCqIqIElEiKj5PRImo1DwRlZ+I6pDrfACDE1EiSkTF54koEZWaJ6LyE1GFlD54gFqJKBElouLzRJSISs0TUfmJKBEFUBURJaJEVHyeiBJRqXkiKj8R1SHX+QAGJ6JElIiKzxNRIio1T0TlJ6IKKX3wALUSUSJKRMXniSgRlZonovITUSIKoCoiSkSJqPg8ESWiUvNEVH4iqkOu8wEMTkSJKBEVnyeiRFRqnojKT0QVUvrgAWolokSUiIrPE1EiKjVPROUnokQUQFVElIgSUfF5IkpEpeaJqPxEVIdc5wMYnIgSUSIqPk9EiajUPBGVn4gqpPTBA9RKRIkoERWfJ6JEVGqeiMpPRIkogKqIKBElouLzRJSISs0TUfmJqA65zgcwOBElokRUfJ6IElGpeSIqPxFVSOmDB6iViBJRIio+T0SJqNQ8EZWfiBJRAFURUSJKRMXniSgRlZonovITUR1ynQ9gcCJKRImo+DwRJaJS80RUfiKqkNIHD1ArESWiRFR8nogSUal5Iio/ESWiAKoiokSUiIrPE1EiKjVPROUnojrkOh/A4ESUiBJR8XkiSkSl5omo/ERUIaUPHqBWIkpEiaj4PBElolLzRFR+IkpEAVRFRIkoERWfJ6JEVGqeiMpPRHXIdT6AwYkoESWi4vNElIhKzRNR+YmoQkofPECtRJSIElHxeSJKRKXmiaj8RJSIAqiKiBJRIio+T0SJqNQ8EZWfiOqQ63wAgxNRIkpExeeJKBGVmiei8hNRhZQ+eIBaiSgRJaLi80SUiErNE1H5iSgRBVAVESWiRFR8nogSUal5Iio/EdUh1/kABieiRJSIis8TUSIqNU9E5SeiCil98AC1ElEiSkTF54koEZWaJ6LyE1EiCqAqIkpEiaj4PBElolLzRFR+IqpDrvMBDE5EiSgRFZ8nokRUap6Iyk9EFVL64AFqJaJElIiKzxNRIio1T0TlJ6JEFEBVRJSIElHxeSJKRKXmiaj8RFSHXOcDGJyIElEiKj5PRImo1DwRlZ+IKqT0wQPUSkSJKBEVnyeiRFRqnojKT0SJKICqiCgRJaLi80SUiErNE1H5iagOuc4HMDgRJaJEVHyeiBJRqXkiKj8RVUjpgweolYgSUSIqPk9EiajUPBGVn4gSUQBVEVEiSkTF54koEZWaJ6LyE1Edcp0PYHAiSkSJqPg8ESWiUvNEVH4iqpDSBw9QKxElokRUfJ6IElGpeSIqPxElogCqIqJElIiKzxNRIio1T0TlJ6I65DofwOBElIgSUfF5IkpEpeaJqPxEVCGlDx6gViJKRImo+DwRJaJS80RUfiJKRAFURUSJKBEVnyeiRFRqnojKT0R1yHU+gMGJKBElouLzRJSISs0TUfmJqEJKHzxArUSUiBJR8XkiSkSl5omo/ESUiAKoiogSUSIqPk9EiajUPBGVn4jqkOt8AIMTUSJKRMXniSgRlZonovITUYWUPniAWokoESWi4vNElIhKzRNR+YkoEQVQFRElokRUfJ6IElGpeSIqPxHVIdf5AAYnokSUiIrPE1EiKjVPROUnogopffAAtRJRIkpExeeJKBGVmiei8hNRIgqgKiJKRImo+DwRJaJS80RUfiKqQ67zAQxORIkoERWfJ6JEVGqeiMpPRBVS+uABaiWiRJSIis8TUSIqNU9E5SeiRBRAVUSUiBJR8XkiSkSl5omo/ERUh1znAxiciBJRIio+T0SJqNQ8EZWfiCqk9MED1EpEiSgRFZ8nokRUap6Iyk9EiSiAqogoESWi4vNElIhKzRNR+YmoDrnOBzA4ESWiRFR8nogSUal5Iio/EVVI6YMHqJWIElEiKj5PRImo1DwRlZ+IElEAVRFRIkpExeeJKBGVmiei8hNRHXKdD2BwIkpEiaj4PBElolLzRFR+IqqQ0gcPUCsRJaJEVHyeiBJRqXkiKj8RJaIAqiKiRJSIis8TUSIqNU9E5SeiOuQ6H8DgRJSIElHxeSJKRKXmiaj8RFQhpQ8eoFYiSkSJqPg8ESWiUvNEVH4iSkQBVEVEiSgRFZ8nokRUap6Iyq/KiFo3eme4fWgkrB0ante6kdG+H+vIso+Eo71eNseXLg2jw/GZrvMBDE5EiSgRFZ8nokRUap6Iyq+6iFo3eme4be3aMDo2GraPb+1r/ej6sHZouO/HO9rrhR+uXh3CyEgWP1y9OpxYsiRsum2dd6IAzgMRJaJEVHyeiBJRqXkiKr/qIur2oZEwOjYaDh4+MK/t41sXFFFhZCS80+tl8/7tt4dTl1wSJm5eI6IAMhNRIkpExeeJKBGVmiei8qsuotYODYft41vPW0TNXrN/fvaPU/7pllvCmUv/XZi+/sZ/m+U6H8DgRJSIElHxeSJKRKXmiaj8FkVEDXqdb/Y7UbPjafaP5wuoD/xg1arwxtKl4e5rVnonCiATESWiRFR8nogSUal5Iiq/6iNq+/jWcOuaW1p/Y4nzGVHv9Hrh/6xYEX72ssvCvlU3iSiADESUiBJR8XkiSkSl5omo/BZFRM33blObiEpd2WsSUO/0euHvPv7x8OWPfSw8/KNXnHOd7+1eD4CWfnrjneGuqelz3LNjd/idH7+q73NfX7ZsznN375gOpzZv7fvcf7rttrnzdu0Jv3LrrfO+1scmd8159uDkznmf+42bb57z3P6du8Mv3ra273Ont2yf+9yO3eEPfuRH+j731SuvnPPcXTumw2sbNs77Wn9q05ZZ86bDb15//bzP7Z89b2o6PLF9Yt7n/uO6ddHz+M+rV/d97uT45Nzzn9wV/uSSS/o+99vXXhv9uvnC8Mi8r/WFbRNzf18nd4WvL1uW/ev07V4vfGl0w9zz37UnvHnttX2f+5NLLpnz3H3bpwb+s/ra5q1zvjZ+a8XKvs98c8mSub9nU9Ph6Nb5vzZ+aWg4+vn/1xtW9X3uxPhU9Gvjm0uW9H3uzeuui57Vl4bm/9o4tX3u18a+iZ3hG5ddlnzmDy+/PDrvxU1b5p33xQ1jkf9O2RO+vPzqvs9947LL5jx3KMPXRu1EVC/9TtSgEfU3H/tY+P0rrwyP/vsr5swtXc8AAEA7IqpPRA1yne9/ffSj4c9+4ifC45d/NDq39MEDAADtiKjzEFH/Y+nS8J2VK8MTS5edM8t35wMAgPqJqF76W5ynvuV5v29x/u0Pfzj8/U03haMfvrTv3NIHDwAAtCOier3ww9WrQxgZyeK9G24Ix5Z8aN65pQ8eAABo56KPqCPLPhKO9nrZHJt1hW+mmdf5tk+OAgAAFbroI6qU0gcPAAC0I6JEFAAA0ICI6pDrfAAAUD8RVUjpgwcAANoRUSIKAABoQER1aOZ1vt7bPQAAoEalw+JiiqiZ9t49AQAAVEhEiSgAAKABEdWhmdf5Sh88AADQjogqpPTBAwAA7YgoEQUAADQgojrkOh8AANRPRBVS+uABAIB2RJSIAgAAGhBRHXKdDwAA6ieiCil98AAAQDsiSkQBAAANiKgOuc4HAAD1E1GFlD54AACgHRElogAAgAZEVIdc5wMAgPqJqEJKHzwAANCOiBJRAABAAyKqQ67zAQBA/URUIaUPHgAAaEdEiSgAAKABEdUh1/kAAKB+IqqQ0gcPAAC0I6JEFAAA0ICI6pDrfAAAUD8RVUjpgwcAANoRUSIKAABoQER1yHU+AACon4gqpPTBAwAA7YgoEQUAADQgojrkOh8AANRPRBVS+uABAIB2RJSIAgAAGhBRHXKdDwAA6ieiCil98AAAQDsiSkQBAAANiKgOuc4HAAD1E1GFlD54AACgHRElogAAgAZEVIdc5wMAgPqJqEJKHzwAANCOiBJRAABAAyKqQ67zAQBA/URUIaUPHgAAaEdEiSgAAKABEdUh1/kAAKB+IqqQ0gcPAAC0I6JEFAAA0ICI6pDrfAAAUD8RVUjpgwcAANoRUSIKAABoQER1yHU+AACon4gqpPTBAwAA7YgoEQUAADQgojrkOh8AANRPRBVS+uABAIB2RJSIAgAAGhBRHXKdDwAA6ieiCil98AAAQDsiSkQBAAANiKgOuc4HAAD1E1GFlD54AACgHRElogAAgAZEVIdc5wMAgPqJqEJKHzwAANCOiBJRAABAAyKqQ67zAQBA/URUIaUPHgAAaEdEiSgAAKABEdUh1/kAAKB+IqqQ0gcPAAC0I6JEFAAA0ICI6pDrfAAAUD8RVUjpgwcAANoRUSIKAABoQER1yHU+AACon4gqpPTBAwAA7YgoEQUAADQgojrkOh8AANRPRBVS+uABAIB2RJSIAgAAGhBRHXKdDwAA6ieiCil98AAAQDsiSkQBAAANiKgOuc4HAAD1E1GFlD54AACgHRElogAAgAZEVIdc5wMAgPqJqEJKHzwAANCOiBJRAABAAyKqQ67zAQBA/URUIaUPHgAAaEdEiSgAAKABEdUh1/kAAKB+F31EnTr2kfDyiV42rzyzNIxtGp13bumDBwAA2rnoI+rlE73w/nt7Q/j+E1m8/97ecPrZD4Wt29aJKAAAWIRE1IleCN9/InzvO71s/vV7D4XXX7407Nq15pxZrvMBAED9RNSsiOr15pr587N/nPIv370nfOnssnD3vhu9EwUAAIuIiIpEVOw/Uz/Xz/v/e2f45S/+aDh0YKWIAgCARUJEJa7zxUKpaUR97zu98P/+fnP49Z+7PBy47ybX+QAAYBEQUQ0iqmlAfe87vfBPf7s2fO3NG8PRT15xztx7DkwDAAAVWhQRdeuaW8LaoeGodSP9v934+Yyo//vuqvCtr94cnnr8ijlzt0+OAgAAFao+oj4IqZj1o+vnfZfqfF3n++FfLQ/ffnskPHv0o/82a+Z1vtIHDwAAtLMoIiplIVf9zkdE/eB/XhH+6r9vCy8cX5acW/rgAQCAdqqLqNuHRsLo2Oh5jajZ3968ybc4//5fLA3v/eVd4eWnL+07t/TBAwAA7VQXUetG7wy3rV0bNozdkbzG1/Q63/vv7Q3h+09k8YO/2RFeefpD0Vmu8wEAQP2qi6gPQur2oZHkN5No8o0lTh37SHj5RC+fk+krfOfYdicAAFChKiNqUbgADh8AAGhORHVo5nW+0gcPAAC0I6JKuQAOHwAAaE5EiSgAAKABEdUh1/kAAKB+IqqUC+DwAQCA5kSUiAIAABoQUR1ynQ8AAOonokq5AA4fAABoTkQV8sYXPg8AAFRIRHVo5nW+EEJ44wufDzOXvb29vb29vb29vf2Fv+9ddfCqQD4rHlgZPrFxbN6gsizLsizLsiyrztXbG/yV86+p706F5Q9eHdZuvmPBEXWhFLW9vb29vb29vb29/fz73vBbw+FiF0LI+vF2//PucO3j14Y124f6XuezLMuyLMuyLKu+1ZsZEjPXfKGR+rWx1TZkFjKjy4hqMnfnP+4M1528Ptwy+YnkO1GlC9re3t7e3t7e3t7evvm+l4qJmT/uFzk53t35YM0XbQt9XedDm7lT/zAVbvzsjeGm6dv8f6Isy7Isy7Isa5GsRhEV+7kcEbWQSEl9vKZzuoyo4beGw/hfj4fVZ24Ka6aHktf5LpSitre3t7e3t7e3t7eff7+giPrgxzN/rnREfbAW+rFnrn4fZ/bnGpvR5HPb8u0tYd2vrQvX3bPKO1GWZVmWZVmWtQhWtRHVZs5CPsbsz7XJ5zzbpj/fFEbeHAnX33uj/0+Uvb29vb29vb29/SLZLziiZq4aI6rJa419rk0/p7E/HQtjXxsLK++/3nfnsyzLsizLsqxFtBq9E9Xvx/P9vVwRNd+vyxVRg3w+G/5oQ9j8zuaw4uBK/54oe3t7e3t7e3t7+0W2n/dbnKf2TdZCAif2a5v+/EI+fuyZ2MePRdRCPq/1X1kfJt6dCNccvnbB/7Jdy7Isy7Isy7LqWb29wV8hhGwfa/zd8bD88PJoOM2+zle6oO3t7e3t7e3t7e3tm+97Vx28KlyMZq6cH3fFA+krfN6JsizLsizLsqz6V28h/8BPfm984fMAAECFRFSHZl7nG9p2JwAAUCERVcoFcPgAAEBzIkpEAQAADYioDrnOBwAA9RNRpVwAhw8AADQnokQUAADQgIjqkOt8AABQPxFVygVw+AAAQHMiSkQBAAANiKgOuc4HAAD1E1GFbBidBAAAKiSiRBQAANCAiOrQzOt8pQ8eAABoR0QVUvrgAQCAdkSUiAIAABoQUR1ynQ8AAOonogopffAAAEA7IkpEAQAADYioDrnOBwAA9RNRhZQ+eAAAoB0RJaIAAIAGRFSHXOcDAID69cavOhjIZ2rFg2Fk/VbvRAEAwCLV+9beEMjnK1PfDTuWPxjuGNouogAAYBHqvT78VrjYhRCyfrw/3v3PYc+1j4cNt0+6zgcAAItMb2ZIzFzzhUbq18ZW25BZyIwuI6rJ3N/f+Y/hwPUnw8Y1u7wTBQAAi0gvFROxcGkSH00CJxVKsf1CXtf50Gbu7079Q3jkxs+GTbfuEVEAALBINIqoJiHRNG4WGlGDzukyol4ffiu8Of7X4ZOrz4RNt+91nQ8AABaBBUVUm3eBzndENbnON3v1+zizP9fYjCaf269v+Xb43LpfC9tuuO+cd6JuWv0JAACgQtVGVJs5C/kY80VUk3m/sunPw+sjb4btswLKdT4AAKjXgiMq9k5OTRHV5LX2e9dqoZ/PL4z9afiZsa+FiesO+u58AACwiDR6J6rfj+f7e7kiqm3YNI2oQT6fn9nwR+FXN78TJlcc8u+JAgCARWbeb3Ge2jdZCwmc2K9t+vML+fixZ2IfPxZRC/m83lj/lfDWxLth8prD/mW7AACwCPW+tTeEi10I+T7WW+Pvhonl8YBynQ8AAOrXG7/qYLgYzVw5P+7Uigf6vgPlnSgAAKhbbyH/wE9+pQ8eAABoR0R1yHU+AACon4gqpPTBAwAA7YgoEQUAADQgojrkOh8AANRPRBVS+uABAIB2RJSIAgAAGhBRHXKdDwAA6ieiCil98AAAQDsiSkQBAAANiKgOuc4HAAD1E1EAAAANiCgAAIAGRFSHZl7nK/1aAACAdkQUAABAAyIKAACgARHVIdf5AACgfiIKAACgAREFAADQgIjqkOt8AABQPxEFAADQwP8HOfWKvMXL8hgAAAAASUVORK5CYII=;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="630" width="436.48" height="171.2" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-2" value="&lt;h1&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;DALI IO中断处理逻辑&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="149" y="-2300" width="530" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-3" value="&lt;h1&gt;&lt;font style=&quot;font-size: 34px&quot;&gt;TRM0接收处理逻辑&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="-1778" width="530" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-4" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_KcwJBDYXuYb1x2wH_KT-5" target="_KcwJBDYXuYb1x2wH_KT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-5" value="IO中断开启了TRM0的输入捕获功能" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="155" y="-1720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-6" value="NO" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_KcwJBDYXuYb1x2wH_KT-8" target="_KcwJBDYXuYb1x2wH_KT-12">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-7" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_KcwJBDYXuYb1x2wH_KT-8" target="_KcwJBDYXuYb1x2wH_KT-9">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-8" value="TRM0执行输入捕获代码" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="-1630" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-9" value="&lt;div&gt;1.将输入捕获的值保存到receive_buf数组&lt;/div&gt;&lt;div&gt;2.重置SYSTICK时间为STOP_TIME&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="315" y="-1615" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-12" value="无操作" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="-1510" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-15" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_KcwJBDYXuYb1x2wH_KT-16" target="_KcwJBDYXuYb1x2wH_KT-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-16" value="main循环会一直监控SYSTICK是否有中断发生" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="133.5" y="-1400" width="151" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-17" value="NO" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_KcwJBDYXuYb1x2wH_KT-19" target="_KcwJBDYXuYb1x2wH_KT-16">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="120" y="-1370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="-1265" />
+              <mxPoint x="90" y="-1375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-18" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_KcwJBDYXuYb1x2wH_KT-19" target="_KcwJBDYXuYb1x2wH_KT-20">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-19" value="systick是否有中断" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="153.5" y="-1310" width="111" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_KcwJBDYXuYb1x2wH_KT-20" value="&lt;div&gt;1.停止TRM0捕获&lt;/div&gt;&lt;div&gt;2.重置DALI的IO口&lt;/div&gt;&lt;div&gt;3.开启IO中断&lt;/div&gt;&lt;div&gt;4.解析时序数据位DALI数据&lt;/div&gt;&lt;div&gt;5.解析DALI数据并做相应的命令处理&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="-1350" width="340" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
